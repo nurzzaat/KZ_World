@@ -1,0 +1,171 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding-left: 30%;
+    display: table;
+}
+
+nav div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-btn #btn {
+    display: table-cell;
+    width: 10vw;
+}
+
+.header-center a {
+    text-decoration: none;
+    margin-right: 5%;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+}
+
+.link {
+    display: table-cell;
+    width: 7vw;
+}
+
+.lang {
+    text-decoration: none;
+    padding-left: 10vw;
+}
+
+.changeColor {
+    background-color: rgba(66, 66, 66, 0.3);
+    box-shadow: rgba(0, 0, 0, 0) 0 1px 3px;
+}
+
+header {
+    background-image: url("https://e0.pxfuel.com/wallpapers/634/69/desktop-wallpaper-big-almaty-lake-winter-mountains-snow-kazakhstan-for-with-resolution-high-quality.jpg");
+    background-size: 100% 100%;
+    height: 45vw;
+}
+
+.master {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 45vw;
+}
+
+.master-in {
+    margin-left: 11%;
+    padding-top: 120px;
+}
+.head-text {
+    color: #eee436;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+
+.links {
+    margin: 5vw 1vw 5vw 0vw;
+}
+
+.links td {
+    height: 3vw;
+    font-size: .9vw;
+    font-weight: 600;
+    width: 10vw;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    padding-bottom: .2vw;
+    border-bottom-style: solid;
+    border-bottom-width: 0.01vw;
+}
+
+.content , .cont-content{
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.content h1 {
+    color: #8b7fd4;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.img {
+    margin: 1vw 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img p {
+    font-size: 1.3vw;
+    width: 35vw;
+}
+
+.scnd-inf {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    width: 70vw;
+    display: flex;
+}
+.cre{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.cre-inf {
+    font-size: 1.15vw;
+    border-right-style: solid;
+    border-right-color: #2ac0fb;
+    border-right-width: .12vw;
+    background-color:#00b7ff ;
+    width: 19.65vw;
+    height: 13vw;
+    padding: 2vw;
+}
+.cre-inf b {
+    color: white;
+    font-size: 1.4vw;
+}
+.contact {
+    display: flex;
+    margin-top: 12vw;
+    background-color: #5c5c5c;
+}
+
+.cont-content h1 {
+    font-size: 5.2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.block {
+    padding: 5vw 2vw 8vw 0;
+}
+
+.block b {
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+}
+
+.block div {
+    color: white;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.5vw;
+}
+
+.block img:hover {
+    transform: scale(1.2);
+}
+.carta{
+    width:43vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}

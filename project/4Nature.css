@@ -1,0 +1,239 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("https://www.tourasia.kz/wp-content/uploads/charyn.jpg");
+    background-size: 100% 100%;
+    height: 45vw;
+}
+
+.head-text {
+    color: #eee436;
+    font-size: 7vw;
+    margin-top: 5vw;
+    font-weight: bold;
+}
+
+.master {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 45vw;
+}
+
+.master-in {
+    margin-left: 11%;
+    padding-top: 120px;
+}
+
+.inf {
+    margin-top: 5vw;
+    width: 80vw;
+    color: white;
+    font-size: 17px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    padding-bottom: .2vw;
+}
+
+.content, .cont-content {
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.content h1 {
+    color: #8b7fd4;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+h3 {
+    color: #eee436;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.scnd-inf {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    width: 70vw;
+}
+
+.contact {
+    display: flex;
+    margin-top: 4vw;
+    background-color: #5c5c5c;
+}
+
+.cont-content h1 {
+    font-size: 5.2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.block {
+    padding: 5vw 2vw 8vw 0;
+}
+
+.block b {
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+}
+
+.block div {
+    color: white;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.5vw;
+}
+
+.block img:hover {
+    transform: scale(1.2);
+}
+
+.carta {
+    width: 43vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+
+.home-demo .item {
+    width: 75vw;
+    height: 30vw;
+}
+
+.card {
+    width: 45vw;
+    height: 25vw;
+    margin-top: 7vw;
+    margin-left: 12vw;
+    position: relative;
+    perspective: 1000px;
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.burabai {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/255fbfcef9664ac290e0322b6d5a956c/%D0%91%D1%83%D1%80%D0%B0%D0%B1%D0%B0%D0%B9.jpg");
+    background-size: 100% 100%;
+}
+
+.tengiz {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/846e0a0923bd42679c82b25fad7a535a/%D0%9A%D0%BE%D1%80%D0%B3%D0%B0%D0%BB%D0%B6%D1%8B%D0%BD.jpg");
+    background-size: 100% 100%;
+}
+
+.irgiz {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/cc78ef79f5db4023819f9d27caea8ee7/TR-KAZAKHSTAN_K~.jpg");
+    background-size: 100% 100%;
+}
+
+.emel {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/32f76ddfd0ff4be1904ebbc1da0fd617/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D0%B8%D0%BD~.JPG");
+    background-size: 100% 100%;
+}
+
+.turgan {
+    background-image: url("https://files.kazakhstan.travel/files/public/201912/12/5469eae930284c69af0f46664a945925/228-articles-fo~.jpg");
+    background-size: 100% 100%;
+}
+
+.kolsay {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/a0231f6b72514a77b2fd6d588e1c6f44/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D0%BE%D0%B7%D1%91%D1%80%D0%B0.JPG");
+    background-size: 100% 100%;
+}
+
+.sharyn {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/941758ff555a44b7b84cf119b7d768d2/%D0%A8%D0%B0%D1%80%D1%8B%D0%BD.JPG");
+    background-size: 100% 100%;
+}
+
+.karkaraly {
+    background-image: url("https://files.kazakhstan.travel/files/public/201911/11/52d0216ccc2b4f2db8f5b7c9e8d3de18/%D0%9A%D0%B0%D1%80%D0%BA%D0%B0%D1%80%D0%B0%D0%BB%D1%8B.jpg");
+    background-size: 100% 100%;
+}
+
+.back {
+    background-color: #ee9d01;
+    font-size: 18px;
+    font-family: Arial;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transform: rotateY(180deg);
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-left: 30vw;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    margin-left: 35vw;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #869791;
+    color: #FFF;
+    text-decoration: none
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791
+}

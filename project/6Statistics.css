@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("https://img.freepik.com/premium-vector/kazakhstan-flag-shape-jigsaw-puzzle-vector-puzzle-map-kazakhstan-flag-children_655111-442.jpg?w=2000");
+    background-size: 100% 100%;
+    height: 45vw;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 37vw 37vw;
+}
+.grid-item {
+    border-radius: 2vw;
+    padding: 2vw;
+    font-size: 18px;
+    margin: .5vw;
+    background-color: #ffc300;
+}
+.grid-item-m{
+    width: 73vw;
+    border-radius: 2vw;
+    padding: 2vw;
+    font-size: 18px;
+    margin: .5vw;
+    background-color: #ffc300;
+}
+.left-m{
+    display: inline-flex;
+    width: 39vw;
+    font-weight: bold;
+}
+.left{
+    display: inline-flex;
+    width: 23vw;
+    font-weight: bold;
+}
+.right{
+    display: inline-flex;
+    text-align: right;
+}
+.right-m{
+    display: inline-flex;
+    text-align: right;
+    width: 4vw;
+}
+
+.master {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 45vw;
+}
+
+.master-in {
+    margin-left: 11%;
+    padding-top: 120px;
+}
+
+.head-text {
+    color: #ffc300;
+    font-size: 7vw;
+    margin-top: 3vw;
+    font-weight: bold;
+}
+
+.inf {
+    margin-top: 12vw;
+    width: 80vw;
+    color: white;
+    font-size: 17px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    padding-bottom: .2vw;
+}
+
+.content, .cont-content {
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.content h1 {
+    color: #ffc300;
+    font-size: 5vw;
+    font-weight: 600;
+}
+h3 {
+    color: #42b5c7;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.scnd-inf {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    width: 70vw;
+}
+
+.contact {
+    background-color: #5c5c5c;
+}
+
+.block {
+    padding: 5vw 2vw 8vw 0;
+}
+
+.block b {
+    font-size: 1.3vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+}
+
+.block div {
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.5vw;
+}
+
+.block img:hover {
+    transform: scale(1.2);
+}
+
+.carta {
+    width: 43vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}

@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("https://welcome.kz/en/assets/images/products/0_gallery/guidebook/traditions/national%20game_kokpar.jpg");
+    background-size: 100% 100%;
+    height: 45vw;
+}
+
+.master {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 45vw;
+}
+
+.master-in {
+    padding-top: 120px;
+}
+
+.head-text {
+    color: #eee436;
+    font-size: 7vw;
+    margin-top: 5vw;
+}
+
+.inf {
+    margin-top: 8vw;
+    width: 80vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+}
+
+.content, .cont-content {
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.content h1 {
+    color: #ee9d01;
+    font-size: 5vw;
+}
+.content img{
+    margin-left: 14%;
+}
+h3 {
+    color: #eee436;
+    font-weight: bold;
+}
+
+.scnd-inf {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    width: 70vw;
+}
+
+.contact {
+    background-color: #5c5c5c;
+}
+
+.block {
+    padding: 5vw 2vw 8vw 0;
+}
+
+.block b {
+    font-size: 1.3vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+}
+
+.block div {
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.5vw;
+}
+
+.block img:hover {
+    transform: scale(1.2);
+}
+
+.carta {
+    width: 43vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}

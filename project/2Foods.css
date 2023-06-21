@@ -1,0 +1,228 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("https://newsroom.kz/wp-content/uploads/2021/03/7f35df552f5c514fada67b5a65103970.jpg");
+    background-size: 100% 100%;
+    height: 45vw;
+}
+
+.head-text {
+    color: #eee436;
+    font-size: 7vw;
+    margin-top: 5vw;
+    font-weight: bold;
+}
+
+.master {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 45vw;
+}
+
+.master-in {
+    margin-left: 11%;
+    padding-top: 120px;
+}
+
+.inf {
+    margin-top: 5vw;
+    width: 80vw;
+    color: white;
+    font-size: 17px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    padding-bottom: .2vw;
+}
+
+.inf .start {
+    color: white;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    padding-bottom: .1vw;
+    border-bottom-style: solid;
+    border-bottom-width: 0.01vw;
+}
+
+.content, .cont-content {
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.home-demo .item {
+    width: 75vw;
+    height: 30vw;
+}
+
+.home-demo h2 {
+    color: darkorange;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.content h1 {
+    color: #8b7fd4;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+h3 {
+    color: #eee436;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.scnd-inf {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    width: 70vw;
+}
+
+.contact {
+    display: flex;
+    margin-top: 4vw;
+    background-color: #5c5c5c;
+}
+
+.cont-content h1 {
+    font-size: 5.2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.block {
+    padding: 5vw 2vw 8vw 0;
+}
+
+.block b {
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'FuturaPT', Arial, sans-serif;
+}
+
+.block div {
+    color: white;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.5vw;
+}
+
+.block img:hover {
+    transform: scale(1.2);
+}
+
+.carta {
+    width: 43vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+
+.qurt {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-kurt.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.shubat {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-shubat.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.qymyz {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-kumis.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.shalap {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-shalap.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.tandyr {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-tohax.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.shelpek {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-shelpek.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.bauyrsaq {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-baursak.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.quyrdaq {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-kuurdak.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.beshparmaq {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-beshbarmak.jpg.webp");
+    background-size: 100% 100%;
+}
+.qazy {
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/07/kazakh-food-kazy.jpg.webp");
+    background-size: 100% 100%;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-left: 29vw;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    margin-left: 35vw;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #869791;
+    color: #FFF;
+    text-decoration: none
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791
+}
